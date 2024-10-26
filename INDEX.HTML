@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هند العشي</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f6e0;
+            color: #ce2e56;
+        }
+        header {
+            text-align: center;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #017c6e;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fbf7db;
+            border-radius: 8px;
+        }
+        .projects {
+            background: linear-gradient(to right, #000517, #66ccff); /* تدرج ألوان أزرق */
+            padding: 15px;
+        }
+        .projects-header {
+            display: flex; /* استخدام flexbox */
+            align-items: center; /* محاذاة عمودياً */
+            justify-content: space-between; /* توزيع المساحة */
+        }
+        h2 {
+            color: #acbefb;
+            margin-bottom: 10px;
+        }
+        p {
+            text-align: justify;
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #83bcd4;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #04021c;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #a2b9d1;
+            color: rgba(98, 186, 216, 0.822);
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #66add5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hend Sohaib alashi</h1>
+        <img src="COAC1.png" alt="صورة بروفايل" class="profile-image">
+    </header>
+
+    <section class="about">
+        <h2>مدربة لياقة بدنية</h2>
+        <p>أعمل في مجال التدريب الشخصي وأدرس في مجال دراسات الوسائط المتعددة. 
+           أهتم بالتدريب على تحسين اللياقة البدنية وتعليم المهارات الأساسية في التصميم الجرافيكي وتطوير الواجهة الأمامية.</p>
+    </section>
+    
+    <section class="projects">
+        <div class="projects-header">
+            <h2>المشاريع</h2>
+            <i class="fas fa-file-alt" style="font-size: 24px; color: #fff;"></i>
+        </div>
+        <ul>
+            <li><a href="#" style="color: #fff;">مشروع 1</a></li>
+            <li><a href="#" style="color: #fff;">مشروع 2</a></li>
+            <li><a href="#" style="color: #fff;">مشروع 3</a></li>
+        </ul>
+    </section>
+    
+    <section class="certificates">
+        <h2>شهاداتي</h2>
+        <ul>
+            <li>[diastsis ricte] - [fetacademy] - [2024]</li>
+            <li>[front-end development] - [honest technology] - [2024]</li>
+        </ul>
+    </section>
+    
+    <section class="work-experience">
+        <h2>أعمالي</h2>
+        <ul>
+            <li>[اسم العمل 1] - [وصف مختصر]</li>
+            <li>[اسم العمل 2] - [وصف مختصر]</li>
+            <li>[اسم العمل 3] - [وصف مختصر]</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>تواصل معي</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="الاسم" required>
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+            <textarea name="message" rows="4" placeholder="رسالتك" required></textarea>
+            <input type="submit" value="إرسال">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 hend alashi</p>
+    </footer>
+</body>
+</html>
